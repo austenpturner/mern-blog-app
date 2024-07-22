@@ -37,7 +37,6 @@ export default function AddNewBlog() {
   }
 
   useEffect(() => {
-    console.log(location);
     if (location.state) {
       const { getCurrentBlogItem } = location.state;
       setIsEdit(true);

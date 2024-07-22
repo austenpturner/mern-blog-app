@@ -38,7 +38,6 @@ export default function Home() {
   }
 
   function handleEdit(getCurrentBlogItem) {
-    console.log(getCurrentBlogItem);
     navigate("/add-blog", { state: { getCurrentBlogItem } });
   }
 
